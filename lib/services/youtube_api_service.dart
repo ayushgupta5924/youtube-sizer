@@ -4,7 +4,7 @@ import '../models/playlist_data.dart';
 
 class YouTubeApiService {
   static const String _baseUrl = 'https://www.googleapis.com/youtube/v3';
-  static const String _apiKey = 'AIzaSyCz41ljAFErqilH1H_0jdS4x_Vnr8IiG1c';
+  static const String _apiKey = 'Enter your API Key';
 
   static String? extractPlaylistId(String url) {
     final regex = RegExp(r'youtube\.com/playlist.*[?&]list=([a-zA-Z0-9_-]+)');
