@@ -24,9 +24,3 @@ A Flutter application that calculates the total watch time of YouTube playlists 
 - **State Management**: Local setState()
 - **API Integration**: HTTP package for REST API calls
 - **Duration Parsing**: ISO 8601 format (PT1H23M45S)
-
-## Usage
-
-1. Enter a YouTube playlist URL (must contain `list=` parameter)
-2. Tap "Calculate Duration" 
-3. View total duration and speed-adjusted times
